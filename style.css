@@ -1,26 +1,25 @@
 * {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:none;
-    box-sizing:border-box;
-  
-    background:transparent;
-  
-    text-decoration:none;
-    font-family:inherit;
-  }
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: transparent;
+  text-decoration: none;
+  font-family: inherit;
+}
 
-ol, 
-ul, 
+ol,
+ul,
 li {
-  display:block;
-  list-style:none;
+  display: block;
+  list-style: none;
 }
 
 table {
   border-collapse: collapse;
-  border-spacing:0;
+  border-spacing: 0;
 }
 
 a img {
@@ -28,20 +27,29 @@ a img {
 }
 
 button,
-a{
-  cursor: pointer; 
+a {
+  cursor: pointer;
   color: inherit;
 }
 
-textarea{
+textarea {
   resize: none;
 }
 
-button, 
-input, 
-textarea, 
-select{
-  appearance: none !important; 
-  -webkit-appearance: none !important; 
+button,
+input,
+textarea,
+select {
+  -moz-appearance: none !important;
+       appearance: none !important;
+  -webkit-appearance: none !important;
   border-radius: 0;
 }
+
+form {
+  width: 100%;
+  max-width: 520px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
